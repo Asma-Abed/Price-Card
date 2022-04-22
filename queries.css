@@ -1,0 +1,47 @@
+/* *************************** */
+/* Below 1200px (landscape tablets)*/
+/* *************************** */
+@media (max-width: 75em) {
+  html {
+    /* 9px */
+    font-size: 56.25%;
+  }
+  .price-box::before {
+    left: -5rem;
+  }
+}
+/* *************************** */
+/* Below 985px (tablets)*/
+/* *************************** */
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px */
+    font-size: 50%;
+  }
+  .price-box::before {
+    left: -3rem;
+  }
+}
+/* *************************** */
+/* Below 553px (phones)*/
+/* *************************** */
+@media (max-width: 34em) {
+  .price-box::before {
+    padding: 0;
+  }
+  .btn-buy {
+    padding: 2.4rem 9rem;
+  }
+  .center-btn {
+    text-align: center;
+  }
+  .btn-pickup {
+    padding: 2.4rem 6rem;
+  }
+  .search {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    padding: 6.4rem 1rem;
+  }
+}
