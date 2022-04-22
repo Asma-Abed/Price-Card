@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #292e5a;
+}
+.price-section {
+  padding: 9.6rem 0;
+}
+.container {
+  max-width: 120rem;
+  padding: 6.4rem 3.2rem;
+  margin: 0 auto;
+  background-color: #eff7fc;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-box {
+  background-color: #fff;
+  padding: 6rem 5.4rem;
+  border-radius: 3rem;
+  position: relative;
+}
+.price-box::before {
+  content: "";
+  background: linear-gradient(119.36deg, #e9e8ff 0%, #e7f3ff 100%);
+  padding: 37.3rem 32.3rem;
+  border-radius: 4.9rem;
+  position: absolute;
+  z-index: -1;
+  top: -6rem;
+  left: -6rem;
+}
+.price-text {
+  font-weight: 900;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.text {
+  font-weight: 500;
+  margin-bottom: 4.2rem;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #292e5a;
+  border-radius: 8px;
+}
+.btn-buy {
+  background: linear-gradient(96.58deg, #5ff489 0%, #79f4f4 100%);
+  margin-bottom: 1.6rem;
+  padding: 2.4rem 15rem;
+}
+.text-2 {
+  font-weight: 500;
+  margin-bottom: 2.9rem;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3.1rem;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.list-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  background: linear-gradient(119.36deg, #e9e8ff 0%, #e7f3ff 100%);
+}
+.background {
+  background-color: #f3f5ff;
+  padding: 1.6rem;
+  border-radius: 8px;
+  margin-bottom: 4rem;
+}
+.text-bold {
+  color: #000;
+  margin-bottom: 1.9rem;
+}
+.search {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.2rem;
+  position: relative;
+}
+.input-container input {
+  width: 100%;
+  padding: 2.4rem;
+  border: 1px solid #b9c0d6;
+  border-radius: 8px;
+  padding-left: 5.2rem;
+  background-color: transparent;
+}
+.input-container input:hover {
+  cursor: pointer;
+}
+.input-container input::placeholder {
+  font-family: "Mulish";
+  font-size: 1.8rem;
+  color: #292e5a;
+  font-weight: 700;
+}
+.btn-check {
+  padding: 1.8rem 3.6rem;
+  background-color: #fff;
+}
+.icon-search {
+  position: absolute;
+  top: 1.6rem;
+  left: 1.5rem;
+}
+.icon-search:hover {
+  cursor: pointer;
+}
+.btn-pickup {
+  padding: 2.4rem 12.8rem;
+  background: linear-gradient(96.58deg, #9cc4ff 0%, #b4a8ff 100%);
+}
